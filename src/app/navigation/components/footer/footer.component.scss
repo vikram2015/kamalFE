@@ -1,0 +1,41 @@
+footer {
+  background: rgb(91, 84, 91);
+  height: 100%;
+  width: 100%;
+  position: static;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 5rem;
+  padding-bottom: 2rem;
+}
+
+.links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#about-details {
+  width: 300px;
+}
+
+.footer-text p{
+  width: 100%;
+  font-size: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem 0rem;
+}
+
+h5{
+  color: #fff;
+}
+
+.links ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

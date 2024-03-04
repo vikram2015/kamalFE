@@ -1,0 +1,67 @@
+<div class="container">
+  <div class="row contact-us">
+    <div class="col-6">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Contact US</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <form [formGroup]="contactForm" novalidate>
+            <div>
+              <mat-form-field appearance="outline">
+                <mat-label>Full Name</mat-label>
+                <input matInput placeholder="Full Name" formControlName="name" />
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field appearance="outline">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Email" formControlName="email" />
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field appearance="outline">
+                <mat-label>Subject</mat-label>
+                <input matInput placeholder="Subject" formControlName="subject" />
+              </mat-form-field>
+            </div>
+            <div>
+              <mat-form-field>
+                <mat-label>Message</mat-label>
+                <textarea matInput placeholder="Message" formControlName="message"></textarea>
+              </mat-form-field>
+            </div>
+            <div>
+              <button
+                pButton
+                pRipple
+                label="Submit"
+                (click)="submitForm()"
+              ></button>
+            </div>
+          </form>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col-6">
+      <mat-card>
+        <mat-card-content>
+          <div>
+            <h4>Address:</h4>
+            <p>
+              KamalJeet Singh Thakral, Ishan Indra bhawan, Indrapuri, 123456
+            </p>
+          </div>
+          <div>
+            <h4>Phone:</h4>
+            <p>8660796944</p>
+          </div>
+          <div>
+            <h4>Email Address:</h4>
+            <p>kamal&#64;gmail.com</p>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

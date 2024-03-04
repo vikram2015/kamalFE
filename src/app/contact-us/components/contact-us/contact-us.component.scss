@@ -1,0 +1,21 @@
+
+.container{
+  padding-top: 5rem;
+}
+.contact-us{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.contact-form{
+  width: 50%;
+}
+
+button{
+  border-radius: 25px;
+  width: 80%;
+
+}
